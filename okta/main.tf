@@ -7,6 +7,7 @@ terraform {
   }
 }
 
+
 # Configure the Okta Provider
 provider "okta" {
   org_name  = var.org_name
