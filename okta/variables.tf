@@ -10,6 +10,7 @@ variable base_url {
   description = "base_url"
 }
 
+
 variable api_token {
   type        = string
   description = "api_token"
