@@ -10,3 +10,7 @@ resource "null_resource" "resource1" {
     test = format("example+%s", timestamp())
   }
 }
+
+variable "notused" {
+  description = "Var without default"
+}
