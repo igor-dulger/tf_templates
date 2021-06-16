@@ -10,7 +10,8 @@ resource "null_resource" "resource1" {
     test = format("example+%s", timestamp())
   }
 }
-
+/*
 variable "error" {
   type = string
 }
+*/
