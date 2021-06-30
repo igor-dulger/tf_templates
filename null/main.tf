@@ -6,6 +6,10 @@ resource "null_resource" "resource1" {
     }
   }
   
+  variable "error" {
+    type    = string
+  }
+  
   triggers = {
     test = format("example+%s", timestamp())
   }
