@@ -6,8 +6,7 @@ resource "null_resource" "resource1" {
     }
   }
   
-  
-  triggers = {
+    triggers = {
     test = format("example+%s", timestamp())
   }
 }
