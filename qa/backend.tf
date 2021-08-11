@@ -5,6 +5,7 @@ resource "null_resource" "resource1" {
       ENV = "Hello big world!"
     }
   }
+  
   triggers = {
     test = format("example+%s", timestamp())
   }
