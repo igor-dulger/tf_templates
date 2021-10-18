@@ -10,6 +10,7 @@ resource "null_resource" "resource1" {
   }
 }
 
+
 variable "image_id" {
   type = string
 }
