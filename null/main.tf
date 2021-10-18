@@ -9,6 +9,7 @@ resource "null_resource" "resource1" {
     test = format("example+%s", timestamp())
   }
 }
+
 variable "image_id" {
   type = string
 }
