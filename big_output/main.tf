@@ -1,6 +1,6 @@
 resource "random_string" "random-string" {
   length = "${var.length}"
-  count = 6000
+  count = 1000
 }
 
 variable "length" {
