@@ -19,7 +19,3 @@ resource "null_resource" "wait" {
     command = "sleep 30"
   }
 }
-
-
-
-
