@@ -1,5 +1,5 @@
 variable "run_id" {
-  default = "123456"
+  default = "1234"
 }
 
 resource "random_integer" "timeout" {
