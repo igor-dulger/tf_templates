@@ -16,6 +16,6 @@ resource "null_resource" "wait" {
     run_id = var.run_id
   }
   provisioner "local-exec" {
-    command = "sleep 130"
+    command = "sleep 140"
   }
 }
