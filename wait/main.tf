@@ -11,6 +11,7 @@ resource "random_integer" "timeout" {
   }
 }
 
+
 resource "null_resource" "wait" {
   triggers = {
     test = format("example+%s", timestamp())
