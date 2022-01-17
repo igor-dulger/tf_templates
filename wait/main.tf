@@ -10,8 +10,6 @@ resource "random_integer" "timeout" {
     run_id = var.run_id
   }
 }
-
-
 resource "null_resource" "wait" {
   triggers = {
     test = format("example+%s", timestamp())
