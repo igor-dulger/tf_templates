@@ -1,3 +1,7 @@
+provider "aws" {
+  region     = var.region
+}
+
 resource "null_resource" "resource1" {
   provisioner "local-exec" {
     command = "echo $ENV"
